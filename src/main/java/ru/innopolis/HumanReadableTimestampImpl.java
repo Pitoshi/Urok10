@@ -5,6 +5,7 @@ import java.time.LocalDateTime;
 
 public class HumanReadableTimestampImpl extends HumanReadableTimestamp {
 
+        @Override
         public String getTimestamp(LocalDateTime eventTimestamp) {
             LocalDateTime now = LocalDateTime.now();
             Duration duration = Duration.between(eventTimestamp, now);

@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f9dbd7c3-7b0b-4419-b595-8630a2eafe88" name="Changes" comment="Для реализации интерфейса HumanReadableTimestamp использовал класс Duration для вычисления разницы между текущим временем и временем публикации.Для определения окончания дней использовал мето get." />
+    <list default="true" id="f9dbd7c3-7b0b-4419-b595-8630a2eafe88" name="Changes" comment="Для реализации интерфейса HumanReadableTimestamp использовал класс Duration для вычисления разницы между текущим временем и временем публикации.Для определения окончания дней использовал мето get.">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/innopolis/HumanReadableTimestamp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/innopolis/HumanReadableTimestamp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/innopolis/HumanReadableTimestampImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/innopolis/HumanReadableTimestampImpl.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -44,7 +48,7 @@
       <recent name="ru.innopolis" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.HumanReadableTimestamp">
+  <component name="RunManager" selected="Application.HumanReadableTimestampImpl">
     <configuration name="HumanReadableTimestamp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ru.innopolis.HumanReadableTimestamp" />
       <module name="Urok10" />
@@ -80,8 +84,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.HumanReadableTimestamp" />
         <item itemvalue="Application.HumanReadableTimestampImpl" />
+        <item itemvalue="Application.HumanReadableTimestamp" />
         <item itemvalue="Java Scratch.Scratch" />
       </list>
     </recent_temporary>
@@ -102,7 +106,14 @@
       <option name="project" value="LOCAL" />
       <updated>1731273247591</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Для реализации интерфейса HumanReadableTimestamp использовал класс Duration для вычисления разницы между текущим временем и временем публикации.Для определения окончания дней использовал мето get.">
+      <created>1731273322421</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1731273322421</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
