@@ -10,10 +10,9 @@ public abstract class HumanReadableTimestamp {
         LocalTime publishTime = LocalTime.now().minusHours(2);
         LocalDateTime timestamp = LocalDateTime.of(publishDate, publishTime);
 
-        HumanReadableTimestamp humanReadableTimestamp = new HumanReadableTimestampImpl();
-        String result = ((HumanReadableTimestampImpl) humanReadableTimestamp).getTimestamp(timestamp);
+        HumanReadableTimestampImpl humanReadableTimestamp = new HumanReadableTimestampImpl();
+        String result = humanReadableTimestamp.getTimestamp(timestamp);
         System.out.println(result); // Выведет: опубликовано X Y назад
     }
 
-    public abstract String getTimestamp(LocalDateTime eventTimestamp);
 }
